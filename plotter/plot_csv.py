@@ -68,8 +68,8 @@ print("sample_width: {}".format(sample_width))
 print("sampling_rate: {}".format(sampling_rate))
 print("expected audio length (s): {}".format(audio_length))
 
-# we will process the signal 2 sec by 2 sec
-window_length = 2
+# we will process the signal 4 sec by 4 sec
+window_length = 4
 samples_in_window_length = (sampling_rate) * window_length
 frames_per_window_length = samples_in_window_length * sample_width * n_channels
 if not os.path.isdir(output_file):
