@@ -1,4 +1,4 @@
-rm -rf env
+rm -rf env 2>/dev/null
 
 python3 -m venv env
 
